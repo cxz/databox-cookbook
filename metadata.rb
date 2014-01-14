@@ -15,4 +15,4 @@ supports "debian"
 
 depends "database"
 depends "mysql"
-depends "postgresql"
+depends "postgresql", ">= 3.3.4"
