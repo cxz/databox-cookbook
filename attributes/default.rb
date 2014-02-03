@@ -1,4 +1,4 @@
-ode['postgresql']['config']['listen_addresses'] = '*'
+default['postgresql']['config']['listen_addresses'] = '*'
 default["databox"]["db_root_password"] = nil
 
 # A list of database_user's attribute parameters.
